@@ -1,0 +1,44 @@
+# Root-level OS junk
+.DS_Store
+Thumbs.db
+
+# Node modules and build files (Frontend - React)
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# Backend - Spring Boot (Java)
+backend/target/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.env
+backend/.DS_Store
+
+# OS/system specific
+*.swp
+*~
+*.bak
+
+*:Zone.Identifier
+
+# Java specific
+*.class
+
+# Environment files
+.env
+
+# Package managers lock files (optional, keep if you want exact reproducibility)
+frontend/package-lock.json
+frontend/yarn.lock
